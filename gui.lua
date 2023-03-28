@@ -83,7 +83,7 @@ Section:NewToggle("Auto Clear Inventory", "ToggleInfo", function(state)
     end
 end)
 
-getgenv().tweenspeed = 500
+getgenv().tweenspeed = 250
 Section:NewSlider("Tween Speed", "SliderInfo", 1500, 100, function(s) -- 500 (MaxValue) | 0 (MinValue)
     getgenv().tweenspeed = s
 end)
